@@ -1,58 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Example</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f4f8;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-        }
-
-        .container {
-            width: min(960px, 100%);
-            padding: 24px;
-        }
-
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(3, minmax(140px, 1fr));
-            gap: 16px;
-        }
-
-        .card {
-            background: #ffffff;
-            border: 1px solid #dcdce3;
-            border-radius: 14px;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-        }
-
-        h1 {
-            margin: 0 0 20px;
-            font-size: 1.8rem;
-            text-align: center;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <a href="index.html" class="logo">Lumen</a>
+  <title>Home | Lumen Photography Studio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>HTML Grid Example</h1>
-        <div class="grid">
-            <div class="card">Item 1</div>
-            <div class="card">Item 2</div>
-            <div class="card">Item 3</div>
-            <div class="card">Item 4</div>
-            <div class="card">Item 5</div>
-            <div class="card">Item 6</div>
-        </div>
+
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="logo">YourName</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
+
+  <main>
+    <section>
+      <div style="max-width:1100px; margin:0 auto; padding: 80px 24px;">
+        <h1>Lumen Photography Studio</h1>
+<p>Editorial, portrait, and event photography — capturing moments with light and intention.</p>
+      </div>
+    </section>
+  </main>
+
 </body>
 </html>

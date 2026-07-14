@@ -1,12 +1,12 @@
 /* ===== Variables ===== */
 :root {
-  --color-bg: #ffffff;
-  --color-text: #222222;
-  --color-muted: #666666;
-  --color-accent: #2563eb;   /* change this to your favorite color */
-  --color-border: #e5e5e5;
+  --color-bg: #121212;
+  --color-text: #f5f5f5;
+  --color-muted: #b3b3b3;
+  --color-accent: #c9a15a;   /* warm gold, feels premium for photography */
+  --color-border: #2b2b2b;
 
-  --font-heading: "Poppins", sans-serif;
+  --font-heading: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;
 }
 

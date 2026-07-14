@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Lumen Photography Studio</title>
+  <meta name="description" content="Explore Lumen Photography Studio's portrait, event, and editorial photography packages.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -35,45 +35,37 @@
   </header>
 
   <main>
-    <section>
-      <div style="max-width:1100px; margin:0 auto; padding: 80px 24px;">
-        <h1>Services &amp; Packages</h1>
-        <p style="color:var(--color-muted); margin-top:16px; max-width:600px;">
-          Every package includes a pre-shoot consultation, professional
-          editing, and an online gallery for delivery.
-        </p>
+    <section class="page-hero">
+      <span class="eyebrow">What We Offer</span>
+      <h1>Services</h1>
+      <p>Portrait, event, and editorial photography — tailored packages for every kind of session.</p>
+    </section>
 
-        <table style="width:100%; border-collapse:collapse; margin-top:40px;">
-          <thead>
-            <tr style="border-bottom:2px solid var(--color-border); text-align:left;">
-              <th style="padding:14px 10px;">Package</th>
-              <th style="padding:14px 10px;">Includes</th>
-              <th style="padding:14px 10px;">Duration</th>
-              <th style="padding:14px 10px;">Price</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr style="border-bottom:1px solid var(--color-border);">
-              <td style="padding:14px 10px;">Portrait Session</td>
-              <td style="padding:14px 10px; color:var(--color-muted);">15 edited photos, 1 location</td>
-              <td style="padding:14px 10px; color:var(--color-muted);">1 hour</td>
-              <td style="padding:14px 10px;">$150</td>
-            </tr>
-            <tr style="border-bottom:1px solid var(--color-border);">
-              <td style="padding:14px 10px;">Event Coverage</td>
-              <td style="padding:14px 10px; color:var(--color-muted);">Full event, 100+ edited photos</td>
-              <td style="padding:14px 10px; color:var(--color-muted);">4 hours</td>
-              <td style="padding:14px 10px;">$600</td>
-            </tr>
-            <tr>
-              <td style="padding:14px 10px;">Editorial / Brand Shoot</td>
-              <td style="padding:14px 10px; color:var(--color-muted);">Styled shoot, 30 edited photos</td>
-              <td style="padding:14px 10px; color:var(--color-muted);">2 hours</td>
-              <td style="padding:14px 10px;">$350</td>
-            </tr>
-          </tbody>
-        </table>
+    <section class="content">
+      <h2>Packages</h2>
+      <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-top:24px;">
+        <div class="card">
+          <h3 style="margin-bottom:8px;">Portrait Session</h3>
+          <p>1-hour natural-light shoot, one location, edited digital gallery delivered within a week.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom:8px;">Event Coverage</h3>
+          <p>Full-day coverage for weddings, launches, or gatherings — candid, unobtrusive shooting style.</p>
+        </div>
+        <div class="card">
+          <h3 style="margin-bottom:8px;">Editorial Shoot</h3>
+          <p>Styled sessions for brands and publications, built around a specific creative direction.</p>
+        </div>
       </div>
+
+      <h2 style="margin-top:40px;">How It Works</h2>
+      <p style="margin-top:16px; max-width:700px;">
+        Every session starts with a short consultation to understand what you're
+        looking for, followed by the shoot itself and a curated digital gallery
+        delivered shortly after.
+      </p>
+
+      <a href="contact.html" class="btn" style="margin-top:28px; display:inline-block;">Get a Quote</a>
     </section>
   </main>
 
@@ -82,6 +74,5 @@
   </footer>
 
   <script src="js/script.js"></script>
-
 </body>
 </html>
